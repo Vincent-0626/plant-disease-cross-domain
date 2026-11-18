@@ -1,0 +1,5 @@
+numpy<2
+Pillow
+scikit-learn
+scipy
+ultralytics==8.3.228

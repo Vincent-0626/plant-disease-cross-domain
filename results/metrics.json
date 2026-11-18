@@ -1,0 +1,44 @@
+{
+  "test_images": 236,
+  "test_leaves": 452,
+  "plantdoc_image_split": {
+    "train": 1967,
+    "val": 347,
+    "excluded": 16,
+    "test": 236
+  },
+  "plantdoc_mapped_leaf_split": {
+    "train": 7162,
+    "val": 1232,
+    "test": 452
+  },
+  "data_audit": {
+    "missing_images": 3,
+    "annotation_dimension_mismatch": 21,
+    "no_valid_boxes": 12,
+    "train_images_excluded_test_overlap": 16
+  },
+  "manual_boxes_source_classifier": {
+    "n": 452,
+    "correct": 111,
+    "accuracy": 0.24557522123893805
+  },
+  "yolo_boxes_source_classifier": {
+    "total_ground_truth": 452,
+    "predicted_boxes": 551,
+    "matched": 407,
+    "detection_recall_at_iou_0_5": 0.9004424778761062,
+    "classification_accuracy_given_match": 0.257985257985258,
+    "end_to_end_accuracy_misses_incorrect": 0.2323008849557522,
+    "correct": 105,
+    "detector_confidence_threshold": 0.25,
+    "nms_iou": 0.7,
+    "matching_iou": 0.5,
+    "caveat": "false positive detections are not counted in per-ground-truth accuracy; detection precision is separately reflected by matched/predicted counts"
+  },
+  "manual_boxes_mixed_classifier": {
+    "n": 452,
+    "correct": 282,
+    "accuracy": 0.6238938053097345
+  }
+}

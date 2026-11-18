@@ -1,0 +1,11 @@
+/data/
+/runs/
+/yolo11n.pt
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar.gz
+.env
+.venv/
+__pycache__/
